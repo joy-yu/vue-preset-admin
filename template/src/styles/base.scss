@@ -1,0 +1,44 @@
+/*
+此文件中定义与业务无关的基础样式
+*/
+
+@import './variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.between-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.el-table thead th {
+  background: #f5f7fa;
+}
+.el-table .cell {
+  white-space: nowrap;
+}

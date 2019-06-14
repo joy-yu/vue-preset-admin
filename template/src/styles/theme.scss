@@ -1,0 +1,11 @@
+@import './variables.scss';
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+$--color-primary: $color-primary !default;
+
+$--menu-background-color: $color-aside-bg !default;
+$--menu-item-font-color: rgba(#fff, 0.7) !default;
+$--menu-item-hover-fill: inherit !default;
+
+@import '~element-ui/packages/theme-chalk/src/index.scss';

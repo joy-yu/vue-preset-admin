@@ -1,0 +1,33 @@
+{
+  "useTaobaoRegistry": true,
+  "packageManager": "yarn",
+  "useConfigFiles": true,
+  "router": false,
+  "vuex": false,
+  "cssPreprocessor": "dart-sass",
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "prettier",
+      "lintOn": ["save"]
+    }
+  },
+  "configs": {
+    "eslintConfig": {
+      "rules": {
+        "prettier/prettier": [
+          "error",
+          {
+            "printWidth": 180,
+            "tabWidth": 2,
+            "singleQuote": true,
+            "semi": true,
+            "trailingComma": "none",
+            "bracketSpacing": true
+          }
+        ]
+      }
+    },
+    "babel": {}
+  }
+}
